@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  FaTwitter, FaGithub, FaPinterest, FaYoutube, FaLinkedin, FaInstagram,
+} from 'react-icons/fa';
 import Profile from '../../assets/images/profile.png';
 
 const HomePage = () => (
@@ -10,11 +13,40 @@ const HomePage = () => (
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <h5 className="card-title ms-5 fs-1 fw-bold text-white">DAVID KASILIA</h5>
+            <p className="card-text ms-5 fs-3 mt-3 fw-semibold text-white">
+              Full Stack Web Developer,
+              <br />
+              Associate Android Developer,
+              <br />
+              & Graffiti Artist
+            </p>
+            <p className="card-text"><small className=" fs-5fw-semibold text-white">With Passion For Creating High Quality UI & Great UX Websites & Android Applications</small></p>
           </div>
         </div>
+        <div className="card-footer text-muted">
+          <div className="d-flex me-5 ms-5">
+            <a href="/socials" className="list-group-item list-group-item-action">
+              <FaTwitter className="fa-brands text-white fs-4" />
+            </a>
+            <a href="/socials" className="list-group-item list-group-item-action">
+              <FaGithub className="fa-brands text-white fs-4" />
+            </a>
+            <a href="/socials" className="list-group-item list-group-item-action">
+              <FaYoutube className="fa-brands text-white fs-4" />
+            </a>
+            <a href="/socials" className="list-group-item list-group-item-action">
+              <FaLinkedin className="fa-brands text-white fs-4" />
+            </a>
+            <a href="/socials" className="list-group-item list-group-item-action">
+              <FaPinterest className="fa-brands text-white fs-4" />
+            </a>
+            <a href="/socials" className="list-group-item list-group-item-action">
+              <FaInstagram className="fa-brands text-white fs-4" />
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  background-color: #111111;
 }
 
 .nav-container {
@@ -13,13 +14,14 @@ a {
 
 .homepage {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 30%;
 }
 
 .home-card {
   width: 60rem;
   margin-left: 4rem;
+  background-color: #111111;
 }
 
 .mobile-nav {
