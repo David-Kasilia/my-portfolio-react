@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden;
-  background-color: #111111;
+  background-color: #111;
 }
 
 .nav-container {
@@ -21,7 +21,12 @@ a {
 .home-card {
   width: 60rem;
   margin-left: 4rem;
-  background-color: #111111;
+  background-color: #111;
+}
+
+.about-card {
+  width: 60rem;
+  background-color: #111;
 }
 
 .mobile-nav {
