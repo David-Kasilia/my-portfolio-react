@@ -54,3 +54,8 @@ a {
 .contact-header {
   margin-left: 6rem;
 }
+
+.contact-details {
+  margin-left: 5rem;
+  width: 60%;
+}
