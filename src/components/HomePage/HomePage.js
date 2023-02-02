@@ -1,6 +1,7 @@
 import React from 'react';
 import {
-  FaTwitter, FaGithub, FaPinterest, FaYoutube, FaLinkedin, FaInstagram,
+  FaTwitter, FaGithub, FaPinterest, FaYoutube, FaLinkedin, FaInstagram, FaCodepen,
+  FaDribbble, FaStackOverflow, FaBehance, FaMedium, FaDev,
 } from 'react-icons/fa';
 import Image from '../../assets/images/myImage.jpg';
 
@@ -32,23 +33,41 @@ const HomePage = () => (
         </div>
         <div className="card-footer text-muted">
           <div className="d-flex me-5 ms-5">
-            <a href="/socials" className="list-group-item list-group-item-action">
+            <a href="https://twitter.com/davidkasilia" className="list-group-item list-group-item-action">
               <FaTwitter className="fa-brands text-white fs-4" />
             </a>
-            <a href="/socials" className="list-group-item list-group-item-action">
+            <a href="https://github.com/David-Kasilia" className="list-group-item list-group-item-action">
               <FaGithub className="fa-brands text-white fs-4" />
             </a>
-            <a href="/socials" className="list-group-item list-group-item-action">
+            <a href="https://www.youtube.com/@kasiliacreations" className="list-group-item list-group-item-action">
               <FaYoutube className="fa-brands text-white fs-4" />
             </a>
-            <a href="/socials" className="list-group-item list-group-item-action">
+            <a href="https://linkedin.com/in/david-kasilia" className="list-group-item list-group-item-action">
               <FaLinkedin className="fa-brands text-white fs-4" />
             </a>
-            <a href="/socials" className="list-group-item list-group-item-action">
+            <a href="https://www.pinterest.com/David_Kasilia/" className="list-group-item list-group-item-action">
               <FaPinterest className="fa-brands text-white fs-4" />
             </a>
-            <a href="/socials" className="list-group-item list-group-item-action">
+            <a href="https://instagram.com/@kasiliadavid" className="list-group-item list-group-item-action">
               <FaInstagram className="fa-brands text-white fs-4" />
+            </a>
+            <a href="https://codepen.io/@videlishious" className="list-group-item list-group-item-action">
+              <FaCodepen className="fa-brands text-white fs-4" />
+            </a>
+            <a href="https://www.behance.net/davidkasilia" className="list-group-item list-group-item-action">
+              <FaBehance className="fa-brands text-white fs-4" />
+            </a>
+            <a href="https://dribbble.com/david%20kasilia" className="list-group-item list-group-item-action">
+              <FaDribbble className="fa-brands text-white fs-4" />
+            </a>
+            <a href="https://stackoverflow.com/users/15810668" className="list-group-item list-group-item-action">
+              <FaStackOverflow className="fa-brands text-white fs-4" />
+            </a>
+            <a href="https://medium.com/@davidkasilia001" className="list-group-item list-group-item-action">
+              <FaMedium className="fa-brands text-white fs-4" />
+            </a>
+            <a href="https://dev.to/@davidkasilia" className="list-group-item list-group-item-action">
+              <FaDev className="fa-brands text-white fs-4" />
             </a>
           </div>
         </div>
