@@ -9,6 +9,10 @@
     list-style: none;
   }
 
+  .home-card-body {
+    margin-left: 3rem;
+  }
+
   .nav-side-bar,
   .nav-container {
     display: none;
@@ -17,6 +21,7 @@
   .homepage {
     position: absolute;
     top: 15%;
+    width: 100%;
   }
 
   .mobile-text {

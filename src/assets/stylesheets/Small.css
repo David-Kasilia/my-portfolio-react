@@ -17,6 +17,7 @@
   .homepage {
     position: absolute;
     top: 15%;
+    width: 100%;
   }
 
   .mobile-text {
@@ -45,12 +46,12 @@
   }
 
   .home-card {
-    width: 30rem;
+    width: 100%;
     background-color: #111;
   }
 
   .profile {
-    margin-left: 6rem;
+    margin-left: 2rem;
     height: 22rem;
   }
 

@@ -13,7 +13,7 @@ const HomePage = () => (
           <img src={Image} className="img-fluid rounded-start profile" alt="David Kasilia Profile" />
         </div>
         <div className="col-md-8">
-          <div className="card-body">
+          <div className="card-body home-card-body">
             <h5 className="card-title ms-5 fs-1 fw-bold text-white">DAVID KASILIA MWANZIA</h5>
             <p className="card-text ms-5 fs-3 mt-3 fw-semibold text-white">
               Full Stack Web Developer,
