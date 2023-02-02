@@ -18,6 +18,12 @@ a {
   left: 30%;
 }
 
+.projects {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
 .skills-page {
   position: absolute;
   top: 15%;

@@ -14,21 +14,23 @@ const About = () => (
             <p className="card-text ms-5 fs-6 mt-3 fw-semibold text-white">
               Hello! I&#39;m David Kasilia from Nairobi Kenya.
               <br />
-              I am a graffiti artist, full-stack web developer and an associate android developer.
+              I am a full-stack web developer and an associate android developer.
+              I am currently studying with Microverse, an online international
+              remote software development school.
               <br />
-              I am currently studying with Microverse,
-              an online international remote software development school.
+              I&#39;ve studied with Google Africa Developers Scholarship for one year as an
+              Associate Android Developer using Kotlin as an object-oriented
+              language to build android applications.
               <br />
-              I&#39;ve studied with Google Africa Developers Scholarship for
-              one year as an Associate Android Developer using
-              Kotlin as an object-oriented language
-              to build android applications.
-              <br />
-              I am more passionate about creating a high-user interface
-              and giving the best user experience in any website or android application I build.
+              I am more passionate about creating a high-user interface and
+              giving the best user experience in any website or android application I build.
               <br />
               Some of the programming languages I am familiar with include:
-              Kotlin, JavaScript, HTML, Ruby and CSS. I&#39;m open to new remote job opportunities.
+              Kotlin, JavaScript, HTML, Ruby and CSS.
+              I&#39;m open to new remote job opportunities.
+              <br />
+              In my free time,
+              I like drawing art or graffiti, listening to music, gaming, or watching movies.
             </p>
             <button type="button" className="btn btn-danger ms-5 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Read More
@@ -48,14 +50,6 @@ const About = () => (
           <div className="modal-body bg-dark">
             <ul className="list-group list-group-flush bg-dark">
               <li className="list-group-item bg-dark text-white">
-                <h4>Birthday:</h4>
-                01.03.2001
-              </li>
-              <li className="list-group-item bg-dark text-white">
-                <h4>Age:</h4>
-                21
-              </li>
-              <li className="list-group-item bg-dark text-white">
                 <h4>Email:</h4>
                 davidkasilia001@gmail.com
                 <br />
@@ -69,7 +63,8 @@ const About = () => (
               </li>
               <li className="list-group-item bg-dark text-white">
                 <h4>Study:</h4>
-                Microverse
+                Microverse,
+                PluralSight
               </li>
               <li className="list-group-item bg-dark text-white">
                 <h4>Freelance:</h4>
