@@ -58,6 +58,8 @@ const Projects = () => {
             <div className="card-body">
               <h5 className="card-title text-center text-white">
                 {project.name}
+                <br />
+                {project.technologies}
               </h5>
               <hr />
               <p className="card-text  text-white">

@@ -10,7 +10,7 @@ const HomePage = () => (
     <div className="card mb-3 home-card">
       <div className="row g-0">
         <div className="col-md-4">
-          <img src={Image} className="img-fluid rounded-start" alt="David Kasilia Profile" />
+          <img src={Image} className="img-fluid rounded-start profile" alt="David Kasilia Profile" />
         </div>
         <div className="col-md-8">
           <div className="card-body">

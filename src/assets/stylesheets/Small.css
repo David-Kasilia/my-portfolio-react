@@ -1,7 +1,86 @@
 @media (max-width: 575.98px) {
   .logo {
-    margin-top: -4rem;
+    height: 300px;
+    width: 500px;
+    margin-top: -2rem;
+    margin-left: -5rem;
   }
 
- 
+  li {
+    list-style: none;
+  }
+
+  .nav-side-bar,
+  .nav-container {
+    display: none;
+  }
+
+  .homepage {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    right: 5%;
+  }
+
+  .projects {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 95%;
+  }
+
+  .project-card {
+    background-color: #111;
+  }
+
+  .project-image {
+    height: 27rem;
+  }
+
+  .skills-page {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+  }
+
+  .home-card {
+    width: 30rem;
+    background-color: #111;
+  }
+
+  .profile {
+    margin-left: 7rem;
+    height: 22rem;
+  }
+
+  .about-card {
+    width: 60rem;
+    background-color: #111;
+  }
+
+  .mobile-nav-bar,
+  .offcanvas-header,
+  .offcanvas-body {
+    background-color: #111;
+  }
+
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5%;
+    padding: 1.5rem;
+  }
+
+  .active {
+    background-color: #af0505;
+    color: white;
+  }
+
+  .contact-header {
+    margin-left: 6rem;
+  }
+
+  .contact-details {
+    margin-left: 5rem;
+    width: 60%;
+  }
 }
