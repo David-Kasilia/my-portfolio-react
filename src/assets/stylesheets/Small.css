@@ -26,8 +26,8 @@
 
   .projects {
     position: absolute;
-    top: 10%;
-    left: 2%;
+    top: 12%;
+    left: 5%;
     width: 95%;
   }
 
@@ -41,7 +41,7 @@
 
   .skills-page {
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 3%;
   }
 
@@ -92,7 +92,7 @@
 
   .contact-page {
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 5%;
     width: 95%;
   }
