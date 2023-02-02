@@ -21,7 +21,13 @@ const HomePage = () => (
               <br />
               & Graffiti Artist
             </p>
-            <p className="card-text"><small className=" fs-5fw-semibold text-white">With Passion For Creating High Quality UI & Great UX Websites & Android Applications</small></p>
+            <p className="card-text ms-5">
+              <small className=" fs-6 fw-semibold text-white">
+                With Passion For:
+                <br />
+                Creating High Quality UI & Great UX Websites & Android Applications
+              </small>
+            </p>
           </div>
         </div>
         <div className="card-footer text-muted">

@@ -7,49 +7,66 @@ import { SiRedux, SiRubyonrails, SiPostgresql } from 'react-icons/si';
 const Skills = () => (
   <div className="container-fluid skills-page">
     <div className="card about-card">
-      <div className="card-header text-white text-center fw-bold fs-3">
+      <div className="card-header text-white text-center fw-bold fs-4">
         Front-End
       </div>
-      <ul className="list-group list-group-flush fw-semi-bold fs-5">
+      <ul className="list-group list-group-flush fw-semi-bold fs-6">
         <li className="list-group-item">
-          <FaHtml5 className="fs-3 ms-3 me-3" />
+          <FaHtml5 className="fs-4 ms-3 me-3" />
           HTML5
         </li>
         <li className="list-group-item">
-          <FaCss3Alt className="fs-3 ms-3 me-3" />
+          <FaCss3Alt className="fs-4 ms-3 me-3" />
           CSS3
         </li>
         <li className="list-group-item">
-          <FaJsSquare className="fs-3 ms-3 me-3" />
+          <FaJsSquare className="fs-4 ms-3 me-3" />
           JavaScript
         </li>
         <li className="list-group-item">
-          <FaReact className="fs-3 ms-3 me-3" />
+          <FaReact className="fs-4 ms-3 me-3" />
           React
         </li>
         <li className="list-group-item">
-          <SiRedux className="fs-3 ms-3 me-3" />
+          <SiRedux className="fs-4 ms-3 me-3" />
           Redux
         </li>
         <li className="list-group-item">
-          <FaBootstrap className="fs-3 ms-3 me-3" />
+          <FaBootstrap className="fs-4 ms-3 me-3" />
           Bootstrap
         </li>
       </ul>
-      <div className="card-header text-white text-center fw-bold fs-3">
+      <div className="card-header text-white text-center fw-bold fs-4">
         Back-End
       </div>
-      <ul className="list-group list-group-flush fw-semi-bold fs-5">
+      <ul className="list-group list-group-flush fw-semi-bold fs-6">
         <li className="list-group-item">
-          <FaSketch className="fs-3 ms-3 me-3" />
+          <FaSketch className="fs-4 ms-3 me-3" />
           Ruby
         </li>
         <li className="list-group-item">
-          <SiRubyonrails className="fs-3 ms-3 me-3" />
+          <SiRubyonrails className="fs-4 ms-3 me-3" />
           Ruby On Rails
         </li>
         <li className="list-group-item">
-          <SiPostgresql className="fs-3 ms-3 me-3" />
+          <SiPostgresql className="fs-4 ms-3 me-3" />
+          PostgreSQL
+        </li>
+      </ul>
+      <div className="card-header text-white text-center fw-bold fs-4">
+        Tools
+      </div>
+      <ul className="list-group list-group-flush fw-semi-bold fs-6">
+        <li className="list-group-item">
+          <FaSketch className="fs-4 ms-3 me-3" />
+          Ruby
+        </li>
+        <li className="list-group-item">
+          <SiRubyonrails className="fs-4 ms-3 me-3" />
+          Ruby On Rails
+        </li>
+        <li className="list-group-item">
+          <SiPostgresql className="fs-4 ms-3 me-3" />
           PostgreSQL
         </li>
       </ul>
