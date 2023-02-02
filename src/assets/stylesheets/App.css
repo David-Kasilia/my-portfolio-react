@@ -20,8 +20,17 @@ a {
 
 .projects {
   position: absolute;
-  top: 10%;
-  left: 30%;
+  top: 5%;
+  left: 29%;
+  width: 69%;
+}
+
+.project-card {
+  background-color: #111;
+}
+
+.project-image {
+  height: 27rem;
 }
 
 .skills-page {
