@@ -59,6 +59,8 @@ const Projects = () => {
               <h5 className="card-title text-center text-white">
                 {project.name}
                 <br />
+                <hr />
+                Built using:
                 {project.technologies}
               </h5>
               <hr />

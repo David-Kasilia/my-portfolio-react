@@ -19,27 +19,27 @@ const MobileNav = () => (
             <ul className="justify-content-end flex-grow-1 p-1 mt-5 mobile-items">
               <li className="nav-item">
                 <NavLink to="/" className="nav-link text-decoration-none">
-                  <span className="fs-5 fw-bold text-white">HOME</span>
+                  <span className="fs-5 fw-bold text-white mobile-text">HOME</span>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/projects" className="nav-link text-decoration-none">
-                  <span className="fs-5 fw-bold text-white">PROJECTS</span>
+                  <span className="fs-5 fw-bold text-white mobile-text">PROJECTS</span>
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <NavLink to="/skills" className="nav-link text-decoration-none">
-                  <span className="fs-5 fw-bold text-white">SKILLS</span>
+                  <span className="fs-5 fw-bold text-white mobile-text">SKILLS</span>
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <NavLink to="/about" className="nav-link text-decoration-none">
-                  <span className="fs-5 fw-bold text-white">ABOUT ME</span>
+                  <span className="fs-5 fw-bold text-white mobile-text">ABOUT ME</span>
                 </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <NavLink to="/contact" className="nav-link text-decoration-none">
-                  <span className="fs-5 fw-bold text-white">CONTACT ME</span>
+                  <span className="fs-5 fw-bold text-white mobile-text">CONTACT ME</span>
                 </NavLink>
               </li>
             </ul>
