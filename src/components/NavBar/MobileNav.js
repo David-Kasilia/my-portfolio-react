@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/images/logo.png';
 
 const MobileNav = () => (
-  <div className="mobile-nav-bar overflow-hidden">
+  <div className="mobile-nav-bar">
     <nav className="navbar">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -14,7 +14,7 @@ const MobileNav = () => (
             <h5 className="offcanvas-title fw-semibold text-white" id="offcanvasNavbarLabel">WELCOME</h5>
             <button type="button" className="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close" />
           </div>
-          <div className="offcanvas-body overflow-hidden">
+          <div className="offcanvas-body">
             <img className="logo" src={Logo} alt="Logo rental call" />
             <ul className="justify-content-end flex-grow-1 p-1 mt-5 mobile-items">
               <li className="nav-item" data-bs-dismiss="offcanvas">

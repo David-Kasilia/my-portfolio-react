@@ -6,3 +6,7 @@ body {
 a {
   color: white;
 }
+
+.offcanvas-body {
+  overflow-x: hidden;
+}
