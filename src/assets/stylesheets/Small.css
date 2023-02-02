@@ -2,7 +2,7 @@
   .logo {
     height: 300px;
     width: 500px;
-    margin-left: -5rem;
+    margin-left: -4rem;
   }
 
   li {
@@ -40,8 +40,8 @@
 
   .skills-page {
     position: absolute;
-    top: 5%;
-    left: 30%;
+    top: 10%;
+    left: 3%;
   }
 
   .home-card {
@@ -54,8 +54,8 @@
     height: 22rem;
   }
 
-  .about-card {
-    width: 60rem;
+  .skills-card {
+    width: 27rem;
     background-color: #111;
   }
 

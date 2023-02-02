@@ -1,12 +1,15 @@
 import React from 'react';
 import {
-  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaBootstrap, FaSketch,
+  FaHtml5, FaCss3Alt, FaJsSquare, FaReact,
+  FaBootstrap, FaSketch, FaFigma, FaGitAlt, FaLinux, FaWindows,
 } from 'react-icons/fa';
-import { SiRedux, SiRubyonrails, SiPostgresql } from 'react-icons/si';
+import {
+  SiRedux, SiRubyonrails, SiPostgresql, SiBlender, SiFirebase, SiHeroku, SiJest, SiPostman,
+} from 'react-icons/si';
 
 const Skills = () => (
   <div className="container-fluid skills-page">
-    <div className="card about-card">
+    <div className="card skills-card">
       <div className="card-header text-white text-center fw-bold fs-4">
         Front-End
       </div>
@@ -58,16 +61,15 @@ const Skills = () => (
       </div>
       <ul className="list-group list-group-flush fw-semi-bold fs-6">
         <li className="list-group-item">
-          <FaSketch className="fs-4 ms-3 me-3" />
-          Ruby
-        </li>
-        <li className="list-group-item">
-          <SiRubyonrails className="fs-4 ms-3 me-3" />
-          Ruby On Rails
-        </li>
-        <li className="list-group-item">
-          <SiPostgresql className="fs-4 ms-3 me-3" />
-          PostgreSQL
+          <FaFigma className="fs-4 ms-3 me-3" />
+          <FaGitAlt className="fs-4 ms-3 me-3" />
+          <FaLinux className="fs-4 ms-3 me-3" />
+          <FaWindows className="fs-4 ms-3 me-3" />
+          <SiBlender className="fs-4 ms-3 me-3" />
+          <SiFirebase className="fs-4 ms-3 me-3" />
+          <SiHeroku className="fs-4 ms-3 me-3" />
+          <SiJest className="fs-4 ms-3 me-3" />
+          <SiPostman className="fs-4 ms-3 me-3" />
         </li>
       </ul>
     </div>
