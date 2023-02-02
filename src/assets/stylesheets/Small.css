@@ -26,9 +26,9 @@
 
   .projects {
     position: absolute;
-    top: 12%;
+    top: 13%;
     left: 5%;
-    width: 95%;
+    width: 90%;
   }
 
   .project-card {
@@ -36,13 +36,13 @@
   }
 
   .project-image {
-    height: 27rem;
+    height: 15rem;
   }
 
   .skills-page {
     position: absolute;
-    top: 12%;
-    left: 3%;
+    top: 13%;
+    left: 4%;
   }
 
   .home-card {
@@ -92,7 +92,7 @@
 
   .contact-page {
     position: absolute;
-    top: 12%;
+    top: 14%;
     left: 5%;
     width: 95%;
   }
@@ -100,5 +100,13 @@
   .contact-details {
     margin-left: 1rem;
     width: 70%;
+  }
+
+  .icon-2 {
+    display: none;
+  }
+
+  .icon-link {
+    margin-right: 2rem;
   }
 }

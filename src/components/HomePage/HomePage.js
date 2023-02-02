@@ -32,42 +32,42 @@ const HomePage = () => (
           </div>
         </div>
         <div className="card-footer text-muted">
-          <div className="d-flex me-5 ms-5">
-            <a href="https://twitter.com/davidkasilia" className="list-group-item list-group-item-action">
+          <div className="d-flex me-5 ms-5 icons">
+            <a href="https://twitter.com/davidkasilia" className="list-group-item list-group-item-action icon-link">
               <FaTwitter className="fa-brands text-white fs-4" />
             </a>
-            <a href="https://github.com/David-Kasilia" className="list-group-item list-group-item-action">
+            <a href="https://github.com/David-Kasilia" className="list-group-item list-group-item-action icon-link">
               <FaGithub className="fa-brands text-white fs-4" />
             </a>
-            <a href="https://www.youtube.com/@kasiliacreations" className="list-group-item list-group-item-action">
+            <a href="https://www.youtube.com/@kasiliacreations" className="list-group-item list-group-item-action icon-link">
               <FaYoutube className="fa-brands text-white fs-4" />
             </a>
-            <a href="https://linkedin.com/in/david-kasilia" className="list-group-item list-group-item-action">
+            <a href="https://linkedin.com/in/david-kasilia" className="list-group-item list-group-item-action icon-link">
               <FaLinkedin className="fa-brands text-white fs-4" />
             </a>
-            <a href="https://www.pinterest.com/David_Kasilia/" className="list-group-item list-group-item-action">
-              <FaPinterest className="fa-brands text-white fs-4" />
-            </a>
-            <a href="https://instagram.com/@kasiliadavid" className="list-group-item list-group-item-action">
-              <FaInstagram className="fa-brands text-white fs-4" />
-            </a>
-            <a href="https://codepen.io/@videlishious" className="list-group-item list-group-item-action">
-              <FaCodepen className="fa-brands text-white fs-4" />
-            </a>
-            <a href="https://www.behance.net/davidkasilia" className="list-group-item list-group-item-action">
-              <FaBehance className="fa-brands text-white fs-4" />
-            </a>
-            <a href="https://dribbble.com/david%20kasilia" className="list-group-item list-group-item-action">
-              <FaDribbble className="fa-brands text-white fs-4" />
-            </a>
-            <a href="https://stackoverflow.com/users/15810668" className="list-group-item list-group-item-action">
-              <FaStackOverflow className="fa-brands text-white fs-4" />
-            </a>
-            <a href="https://medium.com/@davidkasilia001" className="list-group-item list-group-item-action">
+            <a href="https://medium.com/@davidkasilia001" className="list-group-item list-group-item-action icon-link">
               <FaMedium className="fa-brands text-white fs-4" />
             </a>
+            <a href="https://stackoverflow.com/users/15810668" className="list-group-item list-group-item-action">
+              <FaStackOverflow className="fa-brands text-white fs-4 icon-2" />
+            </a>
+            <a href="https://www.pinterest.com/David_Kasilia/" className="list-group-item list-group-item-action">
+              <FaPinterest className="fa-brands text-white fs-4 icon-2" />
+            </a>
+            <a href="https://instagram.com/@kasiliadavid" className="list-group-item list-group-item-action">
+              <FaInstagram className="fa-brands text-white fs-4 icon-2" />
+            </a>
+            <a href="https://codepen.io/@videlishious" className="list-group-item list-group-item-action">
+              <FaCodepen className="fa-brands text-white fs-4 icon-2" />
+            </a>
+            <a href="https://www.behance.net/davidkasilia" className="list-group-item list-group-item-action">
+              <FaBehance className="fa-brands text-white fs-4 icon-2" />
+            </a>
+            <a href="https://dribbble.com/david%20kasilia" className="list-group-item list-group-item-action">
+              <FaDribbble className="fa-brands text-white fs-4 icon-2" />
+            </a>
             <a href="https://dev.to/@davidkasilia" className="list-group-item list-group-item-action">
-              <FaDev className="fa-brands text-white fs-4" />
+              <FaDev className="fa-brands text-white fs-4 icon-2" />
             </a>
           </div>
         </div>

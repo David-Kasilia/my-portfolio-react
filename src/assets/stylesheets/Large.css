@@ -30,7 +30,7 @@
 
   .projects {
     position: absolute;
-    top: 12%;
+    top: 13%;
     left: 2%;
     width: 95%;
   }
@@ -45,8 +45,8 @@
 
   .skills-page {
     position: absolute;
-    top: 12%;
-    left: 3%;
+    top: 13%;
+    left: 4%;
   }
 
   .home-card {
@@ -96,7 +96,7 @@
 
   .contact-page {
     position: absolute;
-    top: 10%;
+    top: 14%;
     left: 5%;
     width: 95%;
   }
