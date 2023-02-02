@@ -17,27 +17,27 @@ const MobileNav = () => (
           <div className="offcanvas-body overflow-hidden">
             <img className="logo" src={Logo} alt="Logo rental call" />
             <ul className="justify-content-end flex-grow-1 p-1 mt-5 mobile-items">
-              <li className="nav-item">
+              <li className="nav-item" data-bs-dismiss="offcanvas">
                 <NavLink to="/" className="nav-link text-decoration-none">
                   <span className="fs-5 fw-bold text-white mobile-text">HOME</span>
                 </NavLink>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" data-bs-dismiss="offcanvas">
                 <NavLink to="/projects" className="nav-link text-decoration-none">
                   <span className="fs-5 fw-bold text-white mobile-text">PROJECTS</span>
                 </NavLink>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown" data-bs-dismiss="offcanvas">
                 <NavLink to="/skills" className="nav-link text-decoration-none">
                   <span className="fs-5 fw-bold text-white mobile-text">SKILLS</span>
                 </NavLink>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown" data-bs-dismiss="offcanvas">
                 <NavLink to="/about" className="nav-link text-decoration-none">
                   <span className="fs-5 fw-bold text-white mobile-text">ABOUT ME</span>
                 </NavLink>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown" data-bs-dismiss="offcanvas">
                 <NavLink to="/contact" className="nav-link text-decoration-none">
                   <span className="fs-5 fw-bold text-white mobile-text">CONTACT ME</span>
                 </NavLink>
