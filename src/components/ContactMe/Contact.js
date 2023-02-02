@@ -4,7 +4,7 @@ import React from 'react';
 import ContactForm from './FormSpree';
 
 const Contact = () => (
-  <div className="container-fluid homepage">
+  <div className="container-fluid contact-page">
     <div className="container-fluid contact-header">
       <h2 className="text-white fs-3 fw-bold">GET IN TOUCH</h2>
       <h5 className="text-white fs-6">

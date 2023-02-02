@@ -87,11 +87,18 @@
   }
 
   .contact-header {
-    margin-left: 0.55rem;
+    margin-left: -1rem;
+  }
+
+  .contact-page {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 95%;
   }
 
   .contact-details {
-    margin-left: 5rem;
-    width: 60%;
+    margin-left: 1rem;
+    width: 70%;
   }
 }

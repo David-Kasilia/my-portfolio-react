@@ -13,7 +13,7 @@
 
   .projects {
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 28%;
     width: 70%;
   }
@@ -65,12 +65,19 @@
     color: white;
   }
 
+  .contact-page {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 75%;
+  }
+
   .contact-header {
     margin-left: 6rem;
   }
 
   .contact-details {
     margin-left: 5rem;
-    width: 60%;
+    width: 70%;
   }
 }
