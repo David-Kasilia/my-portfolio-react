@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/images/logo.png';
 
 const NavBar = () => (
-  <div className="nav-side-bar w-25">
+  <div className="nav-side-bar">
     <div className="container-fluid">
       <div className="row flex-nowrap">
         <div className="col-auto col-md-3 col-xl-2 px-sm-2 px-0 nav-container">
