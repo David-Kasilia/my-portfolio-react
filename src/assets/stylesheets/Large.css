@@ -1,0 +1,108 @@
+@media (min-width: 576.98px) and (max-width: 991.98px) {
+  .logo {
+    height: 300px;
+    width: 500px;
+    margin-left: -4rem;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .home-card-body {
+    margin-left: 3rem;
+  }
+
+  .nav-side-bar,
+  .nav-container {
+    display: none;
+  }
+
+  .homepage {
+    position: absolute;
+    top: 15%;
+    width: 100%;
+  }
+
+  .mobile-text {
+    margin-left: 1.5rem;
+  }
+
+  .projects {
+    position: absolute;
+    top: 13%;
+    left: 2%;
+    width: 95%;
+  }
+
+  .project-card {
+    background-color: #111;
+  }
+
+  .project-image {
+    height: 27rem;
+  }
+
+  .skills-page {
+    position: absolute;
+    top: 13%;
+    left: 4%;
+  }
+
+  .home-card {
+    width: 100%;
+    background-color: #111;
+  }
+
+  .profile {
+    margin-left: 6rem;
+    height: 22rem;
+  }
+
+  .skills-card {
+    width: 90%;
+    background-color: #111;
+  }
+
+  .about-card {
+    background-color: #111;
+  }
+
+  .my-image {
+    height: 25rem;
+    margin-left: 4rem;
+  }
+
+  .mobile-nav-bar,
+  .offcanvas-header,
+  .offcanvas-body {
+    background-color: #111;
+  }
+
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5%;
+    padding: 1.5rem;
+  }
+
+  .active {
+    background-color: #af0505;
+    color: white;
+  }
+
+  .contact-header {
+    margin-left: -1rem;
+  }
+
+  .contact-page {
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    width: 95%;
+  }
+
+  .contact-details {
+    margin-left: 1rem;
+    width: 70%;
+  }
+}

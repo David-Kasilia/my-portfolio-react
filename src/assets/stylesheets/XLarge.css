@@ -1,0 +1,83 @@
+@media (min-width: 1000px) {
+  .homepage {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 65%;
+  }
+
+  .nav-container {
+    background-color: black;
+    width: 25%;
+  }
+
+  .projects {
+    position: absolute;
+    top: 2%;
+    left: 28%;
+    width: 70%;
+  }
+
+  .project-card {
+    background-color: #111;
+  }
+
+  .project-image {
+    height: 27rem;
+  }
+
+  .skills-page {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 85%;
+  }
+
+  .skills-card {
+    width: 80%;
+    background-color: #111;
+  }
+
+  .home-card {
+    width: 100%;
+    margin-left: 4rem;
+    background-color: #111;
+  }
+
+  .about-card {
+    width: 100%;
+    background-color: #111;
+  }
+
+  .mobile-nav-bar {
+    display: none;
+  }
+
+  .logo {
+    height: 200px;
+    margin-top: 5rem;
+    margin-left: -0.65rem;
+    margin-bottom: 5rem;
+  }
+
+  .active {
+    background-color: #af0505;
+    color: white;
+  }
+
+  .contact-page {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 75%;
+  }
+
+  .contact-header {
+    margin-left: 6rem;
+  }
+
+  .contact-details {
+    margin-left: 5rem;
+    width: 70%;
+  }
+}

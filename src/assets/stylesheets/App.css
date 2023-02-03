@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+  background-color: #111;
+}
+
+a {
+  color: white;
+}
+
+.offcanvas-body {
+  overflow-x: hidden;
+}
