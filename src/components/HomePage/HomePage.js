@@ -43,6 +43,15 @@ const HomePage = () => (
         <div className="profile-container">
           <img src={Image} className="img-fluid rounded-start profile" alt="David Kasilia Profile" />
         </div>
+        <div className="profile-text-container">
+          <p className="profile-text">
+            A Remote Enthusiast
+            <br />
+            With Passion For:
+            <br />
+            Creating High Quality UI & Great UX Websites & Android Applications
+          </p>
+        </div>
       </div>
     </div>
   </div>

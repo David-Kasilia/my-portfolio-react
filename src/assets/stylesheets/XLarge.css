@@ -240,4 +240,15 @@
 
     --_i: calc(100% - 2 * var(--s));
   }
+
+  .profile-text-container {
+    position: relative;
+    left: 1%;
+    top: -20rem;
+  }
+
+  .profile-text {
+    font-size: 1.3rem;
+    color: #fff;
+  }
 }
