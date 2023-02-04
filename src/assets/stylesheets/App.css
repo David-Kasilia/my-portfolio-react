@@ -10,3 +10,11 @@ a {
 .offcanvas-body {
   overflow-x: hidden;
 }
+
+.fa-brands {
+  color: white;
+}
+
+.fa-brands:hover {
+  color: #af0505;
+}

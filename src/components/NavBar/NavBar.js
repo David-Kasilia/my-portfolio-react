@@ -1,5 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import {
+  FaTwitter, FaGithub, FaPinterest, FaYoutube, FaLinkedin, FaInstagram, FaCodepen,
+  FaDribbble, FaStackOverflow, FaBehance, FaMedium, FaDev,
+} from 'react-icons/fa';
 import Logo from '../../assets/images/logo.png';
 
 const NavBar = () => (
@@ -38,7 +42,47 @@ const NavBar = () => (
                 <span className="fs-5 d-none d-sm-inline ms-5 fw-bold">CONTACT ME</span>
               </NavLink>
             </div>
-            <div className="container mt-5 ms-3">
+            <div className="socials">
+              <div className="d-flex icons">
+                <a href="https://twitter.com/davidkasilia" className="icon-link">
+                  <FaTwitter className="fa-brands  fs-4" />
+                </a>
+                <a href="https://github.com/David-Kasilia" className="icon-link">
+                  <FaGithub className="fa-brands fs-4" />
+                </a>
+                <a href="https://www.youtube.com/@kasiliacreations" className="icon-link">
+                  <FaYoutube className="fa-brands  fs-4" />
+                </a>
+                <a href="https://linkedin.com/in/david-kasilia" className="icon-link">
+                  <FaLinkedin className="fa-brands  fs-4" />
+                </a>
+                <a href="https://medium.com/@davidkasilia001" className="icon-link">
+                  <FaMedium className="fa-brands  fs-4" />
+                </a>
+                <a href="https://stackoverflow.com/users/15810668" className="icon-link">
+                  <FaStackOverflow className="fa-brands  fs-4 icon-2" />
+                </a>
+                <a href="https://www.pinterest.com/David_Kasilia/" className="icon-link">
+                  <FaPinterest className="fa-brands  fs-4 icon-2" />
+                </a>
+                <a href="https://instagram.com/kasiliadavid" className="icon-link">
+                  <FaInstagram className="fa-brands  fs-4 icon-2" />
+                </a>
+                <a href="https://codepen.io/videlishious" className="icon-link">
+                  <FaCodepen className="fa-brands  fs-4 icon-2" />
+                </a>
+                <a href="https://www.behance.net/davidkasilia" className="icon-link">
+                  <FaBehance className="fa-brands  fs-4 icon-2" />
+                </a>
+                <a href="https://dribbble.com/Kasilia254" className="icon-link">
+                  <FaDribbble className="fa-brands  fs-4 icon-2" />
+                </a>
+                <a href="https://dev.to/@davidkasilia" className="icon-link">
+                  <FaDev className="fa-brands fs-4 icon-2" />
+                </a>
+              </div>
+            </div>
+            <div className="container mt-4 ms-2">
               <h6 className="fa-text fw-bold text-white">
                 &copy; 2023 KASILIA CREATIONS
               </h6>

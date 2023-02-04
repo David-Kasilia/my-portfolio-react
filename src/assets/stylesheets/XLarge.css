@@ -9,6 +9,7 @@
   .nav-container {
     background-color: black;
     width: 25%;
+    overflow-y: auto;
   }
 
   .projects {
@@ -55,9 +56,8 @@
 
   .logo {
     height: 200px;
-    margin-top: 5rem;
-    margin-left: -0.65rem;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
   }
 
   .active {
@@ -79,5 +79,17 @@
   .contact-details {
     margin-left: 5rem;
     width: 70%;
+  }
+
+  .socials {
+    height: 5rem;
+    width: 85%;
+    margin: 3rem 3rem 1rem 1rem;
+  }
+
+  .icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
   }
 }
