@@ -1,24 +1,21 @@
 /* eslint-disable max-len */
 import React from 'react';
+import Greetings from './Greetings';
 // import Image from '../../assets/images/myImage.jpg';
 
 const HomePage = () => (
   <div className="container-fluid homepage">
-    <div className="name-container">
-      <h1 className="fw-bold name">
-        <span>
-          DAVID KASILIA MWANZIA
-        </span>
-      </h1>
-    </div>
+    <Greetings />
     <div className="home-card">
       <div className="opening-text">
         <h3 className="fw-bold home-title">
-          Full Stack Web Developer,
+          I&apos;m David Kasilia,
+          <br />
+          A Full Stack Web Developer,
           <br />
           Associate Android Developer,
           <br />
-          & Graffiti Artist
+          & A Graffiti Artist
         </h3>
       </div>
     </div>
