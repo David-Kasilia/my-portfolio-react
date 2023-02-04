@@ -99,9 +99,8 @@
   }
 
   .home-title {
-    font-size: 2.5rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    font-size: 2.75rem;
+    margin-top: 2.5rem;
     color: #fff;
   }
 
@@ -118,9 +117,8 @@
   }
 
   .opening-text {
-    width: 40rem;
-    animation:
-      animated-text 5s linear 3s 1 normal both,
+    width: 65%;
+    animation: animated-text 3s linear 3s 1 normal both,
       animated-cursor 500ms linear infinite;
     white-space: nowrap;
     overflow: hidden;
@@ -148,8 +146,64 @@
     0% {
       background-position: -500%;
     }
+
     100% {
       background-position: 500%;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    margin-left: -1.65rem;
+  }
+
+  .wrapper .dynamic-txts {
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+  }
+
+  .dynamic-txts li {
+    list-style: none;
+    color: #af0505;
+    font-size: 2.75rem;
+    font-weight: 700;
+    position: relative;
+    top: 0;
+    animation: slide 16s steps(4) infinite;
+  }
+
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+  }
+
+  .dynamic-txts li span {
+    position: relative;
+    line-height: 90px;
+  }
+
+  .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1%;
+    height: 100%;
+    width: 100%;
+    background: #111;
+    border-left: 2px solid #af0505;
+    animation: typing 4s steps(10) infinite;
+  }
+
+  @keyframes typing {
+    40%,
+    60% {
+      left: calc(100% + 10px);
+    }
+
+    100% {
+      left: 0;
     }
   }
 }

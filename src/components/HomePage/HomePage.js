@@ -8,18 +8,38 @@ const HomePage = () => (
     <Greetings />
     <div className="home-card">
       <div className="opening-text">
-        <h2 className="fw-bold home-title">
-          I&apos;m
-          <span className="ms-3 name">
-            David Kasilia
-          </span>
-          <br />
-          A Full Stack Web Developer,
-          <br />
-          Associate Android Developer,
-          <br />
-          & A Graffiti Artist
-        </h2>
+        <div className="name-container">
+          <h2 className="fw-bold home-title">
+            I&apos;m
+            <span className="ms-3 name">
+              David Kasilia Mwanzia
+            </span>
+          </h2>
+        </div>
+        <div className="wrapper">
+          <ul className="dynamic-txts">
+            <li>
+              <span>
+                A Full Stack Web Developer,
+              </span>
+            </li>
+            <li>
+              <span>
+                An Associate Android Developer,
+              </span>
+            </li>
+            <li>
+              <span>
+                UI/UX Developer,
+              </span>
+            </li>
+            <li>
+              <span>
+                A Graffiti Artist,
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
