@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import Greetings from './Greetings';
-// import Image from '../../assets/images/myImage.jpg';
+import Image from '../../assets/images/myImage.jpg';
 
 const HomePage = () => (
   <div className="container-fluid homepage">
@@ -40,6 +40,9 @@ const HomePage = () => (
             </li>
           </ul>
         </div>
+        <div className="profile-container">
+          <img src={Image} className="img-fluid rounded-start profile" alt="David Kasilia Profile" />
+        </div>
       </div>
     </div>
   </div>
@@ -47,7 +50,7 @@ const HomePage = () => (
 
 export default HomePage;
 
-// {/* <img src={Image} className="img-fluid rounded-start profile" alt="David Kasilia Profile" /> */}
+// {/*  */}
 // {/* <div className="col-md-8">
 // <div className="card-body home-card-body">
 //   <p className="card-text ms-5 fs-3 mt-3 fw-semibold text-white">
