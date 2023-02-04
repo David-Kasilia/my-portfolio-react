@@ -1,9 +1,9 @@
 @media (min-width: 1000px) {
   .homepage {
     position: absolute;
-    top: 20%;
-    left: 30%;
-    width: 65%;
+    top: 12%;
+    left: 25%;
+    width: 70%;
   }
 
   .nav-container {
@@ -41,7 +41,7 @@
 
   .home-card {
     width: 100%;
-    margin-left: 4rem;
+    margin-left: 2rem;
     background-color: #111;
   }
 
@@ -91,5 +91,170 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1.5rem;
+  }
+
+  .name-container {
+    display: block;
+    margin: auto;
+    width: 70%;
+    position: relative;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 3rem;
+    color: transparent;
+    animation: showText forwards;
+    animation-delay: 2s;
+  }
+
+  .name:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #af0505, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+  .reveal-bg {
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-color: #fff;
+    left: 0;
+    animation: revealText 1200ms ease-out;
+  }
+
+  @keyframes revealText {
+    80% {
+      width: 100%;
+      left: 0;
+    }
+
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+
+  @keyframes showText {
+    to {
+      color: #fff;
+    }
+  }
+
+  /* .opening-text {
+    width: 40rem;
+  } */
+
+  .home-title {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    color: #fff;
+
+    /* animation: showup 7s; */
+  }
+
+  .opening-text {
+    width: 40rem;
+    animation: typing 2s steps(22), blink 5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  /* @keyframes showup {
+    0% {
+      opacity: 0;
+    }
+
+    20% {
+      opacity: 1;
+    }
+
+    80% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  } */
+
+  /* title styles */
+  .name span {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+  }
+
+  .name span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: a-ltr-after 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+    transform: translateX(-101%);
+  }
+
+  .name span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: a-ltr-before 2s cubic-bezier(0.77, 0, 0.18, 1) forwards;
+    transform: translateX(0);
+  }
+
+  .name span:nth-of-type(1)::before,
+  .name span:nth-of-type(1)::after {
+    animation-delay: 1s;
+  }
+
+  .name span:nth-of-type(2)::before,
+  .name span:nth-of-type(2)::after {
+    animation-delay: 1.5s;
+  }
+
+  @keyframes a-ltr-after {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(101%);
+    }
+  }
+
+  @keyframes a-ltr-before {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200%);
+    }
   }
 }
