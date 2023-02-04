@@ -1,7 +1,7 @@
 @media (min-width: 1000px) {
   .homepage {
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: 25%;
     width: 70%;
   }
@@ -93,20 +93,6 @@
     gap: 1.5rem;
   }
 
-  .name-container {
-    margin: auto;
-    width: 70%;
-    margin-bottom: 2rem;
-    position: relative;
-    display: none;
-  }
-
-  .name {
-    text-align: center;
-    font-size: 3rem;
-    color: transparent;
-  }
-
   .name:hover {
     color: #fff;
     text-shadow: 0 0 10px #af0505, 0 0 20px #fff, 0 0 40px #fff;
@@ -120,15 +106,11 @@
   }
 
   .animation {
-    position: relative;
     text-align: center;
-    font-family: sans-serif;
     text-transform: uppercase;
-    animation: animate 7s forwards;
-    font-size: 6em;
+    animation: animate 10s forwards;
     letter-spacing: 4px;
-    overflow: hidden;
-    background: linear-gradient(90deg, #000, #fff, #000);
+    background: linear-gradient(90deg, #af0505, #fff, #000);
     background-repeat: no-repeat;
     background-size: 80%;
     background-clip: text;

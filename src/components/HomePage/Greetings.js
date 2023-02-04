@@ -13,7 +13,7 @@ const Greetings = () => {
       ref={animationEnd}
       onAnimationEnd={handleAnimationEnd}
       style={{ visibility: hidden ? 'hidden' : 'visible' }}
-      className="animation"
+      className="animation fw-bold"
     >
       <div className="greetings">
         <h1 className="fw-bold">
