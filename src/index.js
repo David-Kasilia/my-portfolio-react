@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import './assets/stylesheets/Small.css';
 import './assets/stylesheets/Large.css';
 import './assets/stylesheets/XLarge.css';
+import './assets/stylesheets/XMedium.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
