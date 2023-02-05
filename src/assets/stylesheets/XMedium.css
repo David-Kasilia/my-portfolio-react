@@ -1,39 +1,23 @@
 /* stylelint-disable csstree/validator */
-@media (min-width: 576.98px) and (max-width: 1080.98px) {
-  .logo {
-    height: 300px;
-    width: 500px;
-    margin-left: -4rem;
-  }
-
-  li {
-    list-style: none;
-  }
-
-  .home-card-body {
-    margin-left: 3rem;
-  }
-
-  .nav-side-bar,
-  .nav-container {
-    display: none;
-  }
-
+@media (min-width: 1095.98px) and (max-width: 1498.98px) {
   .homepage {
     position: absolute;
-    top: 8%;
-    width: 100%;
+    top: 13%;
+    left: 25%;
+    width: 70%;
   }
 
-  .mobile-text {
-    margin-left: 1.5rem;
+  .nav-container {
+    background-color: black;
+    width: 25%;
+    overflow-y: auto;
   }
 
   .projects {
     position: absolute;
-    top: 13%;
-    left: 2%;
-    width: 95%;
+    top: 2%;
+    left: 28%;
+    width: 70%;
   }
 
   .project-card {
@@ -41,44 +25,40 @@
   }
 
   .project-image {
-    height: 16rem;
+    height: 27rem;
   }
 
   .skills-page {
     position: absolute;
-    top: 13%;
-    left: 4%;
+    top: 5%;
+    left: 30%;
+    width: 85%;
+  }
+
+  .skills-card {
+    width: 80%;
+    background-color: #111;
   }
 
   .home-card {
     width: 100%;
-    background-color: #111;
-  }
-
-  .skills-card {
-    width: 90%;
+    margin-left: 4rem;
     background-color: #111;
   }
 
   .about-card {
+    width: 100%;
     background-color: #111;
   }
 
-  .my-image {
-    height: 25rem;
-    margin-left: 4rem;
+  .mobile-nav-bar {
+    display: none;
   }
 
-  .mobile-nav-bar,
-  .offcanvas-header,
-  .offcanvas-body {
-    background-color: #111;
-  }
-
-  .navbar-toggler-icon {
-    background-color: white;
-    border-radius: 5%;
-    padding: 1.5rem;
+  .logo {
+    height: 200px;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
   }
 
   .active {
@@ -86,26 +66,26 @@
     color: white;
   }
 
-  .contact-header {
-    margin-left: -1rem;
-  }
-
   .contact-page {
     position: absolute;
-    top: 14%;
-    left: 5%;
-    width: 95%;
+    top: 20%;
+    left: 35%;
+    width: 75%;
+  }
+
+  .contact-header {
+    margin-left: 6rem;
   }
 
   .contact-details {
-    margin-left: 1rem;
+    margin-left: 5rem;
     width: 70%;
   }
 
   .socials {
     height: 5rem;
     width: 85%;
-    margin: 2rem 3rem 1rem 1.5rem;
+    margin: 3rem 3rem 1rem 1rem;
   }
 
   .icons {
@@ -117,6 +97,12 @@
   .name:hover {
     color: #fff;
     text-shadow: 0 0 10px #af0505, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+  .home-title {
+    font-size: 2.25rem;
+    margin-top: 2.5rem;
+    color: #fff;
   }
 
   .animation {
@@ -133,9 +119,8 @@
 
   .opening-text {
     width: 100%;
-    animation:
-      animated-text 3s linear 3s 1 normal both,
-      animated-cursor 500ms linear infinite;
+    animation: animated-text 3s linear 3s 1 normal both,
+      animated-cursor 800ms linear infinite;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -182,7 +167,7 @@
   .dynamic-txts li {
     list-style: none;
     color: #af0505;
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 700;
     position: relative;
     top: 0;
@@ -226,7 +211,7 @@
   .profile {
     --s: 15px; /* size of the frame */
     --b: 2px; /* border thickness */
-    --w: 18rem; /* width of the image */
+    --w: 16rem; /* width of the image */
     --c: #af0505;
 
     width: var(--w);
@@ -236,15 +221,15 @@
 
     --_g: var(--c) var(--b), #0000 0 calc(100% - var(--b)), var(--c) 0;
 
-    background:
-      linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat,
+    background: linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat,
       linear-gradient(90deg, var(--_g)) 50% / var(--_i, 100%) 100% no-repeat;
     outline: calc(var(--w) / 2) solid #0009;
     outline-offset: calc(var(--w) / -2 - 2 * var(--s));
     transition: 0.4s;
     cursor: pointer;
     position: relative;
-    left: 5%;
+    left: 68%;
+    top: -12rem;
   }
 
   .profile:hover {
@@ -256,19 +241,12 @@
 
   .profile-text-container {
     position: relative;
-    top: 1.2rem;
-    left: 1.5rem;
-    padding-bottom: 1rem;
+    left: 1%;
+    top: -16rem;
   }
 
   .profile-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #fff;
-  }
-
-  .home-title {
-    font-size: 2.5rem;
-    color: #fff;
-    margin-left: 1rem;
   }
 }

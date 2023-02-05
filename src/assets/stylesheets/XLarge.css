@@ -1,8 +1,8 @@
 /* stylelint-disable csstree/validator */
-@media (min-width: 1000px) {
+@media (min-width: 1500px) {
   .homepage {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 25%;
     width: 70%;
   }
@@ -121,7 +121,7 @@
     width: 100%;
     animation:
       animated-text 3s linear 3s 1 normal both,
-      animated-cursor 500ms linear infinite;
+      animated-cursor 800ms linear infinite;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
