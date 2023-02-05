@@ -265,6 +265,11 @@
     color: #fff;
   }
 
+  .project-links {
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+
   .home-title {
     font-size: 2.5rem;
     color: #fff;

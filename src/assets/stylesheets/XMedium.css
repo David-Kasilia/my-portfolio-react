@@ -11,7 +11,7 @@
   .nav-container {
     background-color: black;
     width: 25%;
-    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .projects {
@@ -19,6 +19,7 @@
     top: 2%;
     left: 28%;
     width: 70%;
+    height: 87%;
   }
 
   .project-card {
@@ -26,7 +27,12 @@
   }
 
   .project-image {
-    height: 27rem;
+    height: 22rem;
+  }
+
+  .project-links {
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
   }
 
   .skills-page {
@@ -85,7 +91,7 @@
   }
 
   .socials {
-    height: 5rem;
+    height: 10rem;
     width: 85%;
     margin: 3rem 3rem 1rem 1rem;
   }

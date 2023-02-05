@@ -27,9 +27,14 @@
 
   .projects {
     position: absolute;
-    top: 13%;
+    top: 15%;
     left: 5%;
     width: 90%;
+  }
+
+  .project-links {
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
   }
 
   .project-card {
@@ -37,7 +42,7 @@
   }
 
   .project-image {
-    height: 15rem;
+    height: 17rem;
   }
 
   .skills-page {

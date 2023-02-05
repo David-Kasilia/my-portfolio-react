@@ -99,7 +99,7 @@ const Projects = () => {
                 <br />
                 {project.description}
               </p>
-              <div className="d-flex justify-content-evenly me-2 ms-2">
+              <div className="d-flex justify-content-evenly me-2 ms-2 project-links">
                 <a className="btn btn-outline-danger" href={project.source} role="button">
                   <FaGithub className="fa-brands fs-4 text-white" />
                 </a>
