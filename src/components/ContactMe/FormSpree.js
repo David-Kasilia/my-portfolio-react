@@ -21,26 +21,27 @@ function ContactForm() {
       <form onSubmit={handleSubmit}>
         <div className="row mt-5">
           <div className="col">
-            <label className="form-label text-white">
+            <label className="form-label text-white fs-5">
               First Name
             </label>
             <input type="text" className="form-control" placeholder="First name" aria-label="First name" />
           </div>
           <div className="col">
-            <label className="form-label text-white">
+            <label className="form-label text-white fs-5">
               Last Name
             </label>
             <input type="text" className="form-control" placeholder="Last name" aria-label="Last name" />
           </div>
         </div>
         <div className="mb-3 mt-2">
-          <label htmlFor="email" className="form-label text-white">
+          <label htmlFor="email" className="form-label text-white fs-5">
             Email Address
           </label>
           <input
             id="email"
             type="email"
             name="email"
+            placeholder="Enter Valid Email Address"
             className="form-control"
           />
           <ValidationError
@@ -49,7 +50,7 @@ function ContactForm() {
             errors={state.errors}
           />
         </div>
-        <div className="mb-3">
+        <div className="mb-3 fs-5">
           <label htmlFor="exampleFormControlTextarea1" className="form-label text-white">Enter Your Message</label>
           <textarea
             id="message"
@@ -62,7 +63,7 @@ function ContactForm() {
             errors={state.errors}
           />
         </div>
-        <button type="submit" className=" btn btn-danger" disabled={state.submitting} onClick={() => setTimeout(() => { location.reload(); }, 5500)}>
+        <button type="submit" className="download-btn mt-2 fw-bold fs-5" disabled={state.submitting} onClick={() => setTimeout(() => { location.reload(); }, 5500)}>
           Submit
         </button>
       </form>

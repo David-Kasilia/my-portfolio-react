@@ -53,8 +53,12 @@
   }
 
   .about-card {
-    width: 100%;
+    width: 85%;
     background-color: #111;
+  }
+
+  .my-image {
+    margin-left: 1rem;
   }
 
   .mobile-nav-bar {
@@ -75,16 +79,20 @@
   .contact-page {
     position: absolute;
     top: 20%;
-    left: 35%;
-    width: 75%;
+    left: 30%;
+    width: 80%;
   }
 
   .contact-header {
-    margin-left: 6rem;
+    margin-left: 5rem;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
   }
 
   .contact-details {
-    margin-left: 5rem;
+    margin-left: 4.5rem;
     width: 70%;
   }
 
@@ -101,7 +109,8 @@
   }
 
   .name:hover,
-  .project-name:hover {
+  .project-name:hover,
+  .contact-title:hover {
     color: #fff;
     text-shadow: 0 0 10px #af0505, 0 0 20px #fff, 0 0 40px #fff;
   }

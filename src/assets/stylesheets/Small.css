@@ -37,6 +37,10 @@
     margin-bottom: 1.5rem;
   }
 
+  .contact-text {
+    width: 80%;
+  }
+
   .project-card {
     background-color: #111;
   }
