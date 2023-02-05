@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../assets/images/myImage.jpg';
+import Image from '../../assets/images/myImage.png';
 
 const About = () => (
   <div className="container-fluid homepage">

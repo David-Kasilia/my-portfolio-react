@@ -1,7 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
 import Greetings from './Greetings';
-import Image from '../../assets/images/myImage.jpg';
+import DownloadResume from './DownloadResume';
+import Image from '../../assets/images/myImage.png';
 
 const HomePage = () => (
   <div className="container-fluid homepage">
@@ -51,6 +52,9 @@ const HomePage = () => (
             <br />
             Creating High Quality UI & Great UX Websites & Android Applications
           </p>
+        </div>
+        <div className="download-container">
+          <DownloadResume />
         </div>
       </div>
     </div>

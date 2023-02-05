@@ -4,7 +4,7 @@
     position: absolute;
     top: 13%;
     left: 25%;
-    width: 70%;
+    width: 75%;
   }
 
   .nav-container {
@@ -167,7 +167,7 @@
   .dynamic-txts li {
     list-style: none;
     color: #af0505;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 700;
     position: relative;
     top: 0;
@@ -211,7 +211,7 @@
   .profile {
     --s: 15px; /* size of the frame */
     --b: 2px; /* border thickness */
-    --w: 16rem; /* width of the image */
+    --w: 17rem; /* width of the image */
     --c: #af0505;
 
     width: var(--w);
@@ -228,7 +228,7 @@
     transition: 0.4s;
     cursor: pointer;
     position: relative;
-    left: 68%;
+    left: 65%;
     top: -12rem;
   }
 
@@ -246,7 +246,7 @@
   }
 
   .profile-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
   }
 }
