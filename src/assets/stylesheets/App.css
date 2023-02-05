@@ -5,6 +5,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 .offcanvas-body {
@@ -20,5 +21,22 @@ a {
 }
 
 .name {
+  color: white;
+}
+
+.resume-icon {
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.skills-icons {
+  height: 3.75rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2rem;
   color: white;
 }

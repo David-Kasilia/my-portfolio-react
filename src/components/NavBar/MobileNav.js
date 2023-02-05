@@ -89,7 +89,7 @@ const MobileNav = () => (
               </div>
             </div>
 
-            <div className="container mt-5">
+            <div className="container footer-copy">
               <h6 className="fa-text fw-bold text-white">
                 &copy; 2023 KASILIA CREATIONS
               </h6>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../assets/images/myImage.jpg';
+import Image from '../../assets/images/myImage.png';
 
 const About = () => (
   <div className="container-fluid homepage">
@@ -10,8 +10,8 @@ const About = () => (
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h5 className="card-title ms-5 fs-1 fw-bold text-white">ABOUT ME</h5>
-            <p className="card-text ms-5 fs-6 mt-3 fw-semibold text-white">
+            <h5 className="card-title ms-5 fs-1 fw-bold text-white name">ABOUT ME</h5>
+            <p className="card-text fs-6 mt-3 fw-semibold text-white">
               Hello! I&#39;m David Kasilia from Nairobi Kenya.
               <br />
               I am a full-stack web developer and an associate android developer.

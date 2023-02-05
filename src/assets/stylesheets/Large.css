@@ -10,10 +10,6 @@
     list-style: none;
   }
 
-  .home-card-body {
-    margin-left: 3rem;
-  }
-
   .nav-side-bar,
   .nav-container {
     display: none;
@@ -21,8 +17,9 @@
 
   .homepage {
     position: absolute;
-    top: 8%;
+    top: 12%;
     width: 100%;
+    height: 65%;
   }
 
   .mobile-text {
@@ -47,12 +44,13 @@
   .skills-page {
     position: absolute;
     top: 13%;
-    left: 4%;
+    left: 2%;
   }
 
   .home-card {
     width: 100%;
     background-color: #111;
+    height: 100%;
   }
 
   .skills-card {
@@ -140,6 +138,7 @@
     overflow: hidden;
     border-right: 3px solid;
     font-size: 2em;
+    height: 100%;
   }
 
   @keyframes animated-text {
@@ -262,13 +261,49 @@
   }
 
   .profile-text {
-    font-size: 1.1rem;
+    font-size: 1.31rem;
     color: #fff;
+  }
+
+  .project-links {
+    margin-top: 1.7rem;
+    margin-bottom: 1.5rem;
   }
 
   .home-title {
     font-size: 2.5rem;
     color: #fff;
     margin-left: 1rem;
+  }
+
+  .download-container {
+    position: relative;
+    left: 2%;
+    top: 1rem;
+  }
+
+  .download-btn {
+    padding: 20px 25px;
+    background-color: #050801;
+    color: #af0505;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .download-btn:hover {
+    background: #af0505;
+    color: #050801;
+    box-shadow:
+      0 0 5px #af0505,
+      0 0 25px #af0505,
+      0 0 50px #af0505,
+      0 0 100px #af0505;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
 }

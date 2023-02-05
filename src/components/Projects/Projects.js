@@ -44,6 +44,32 @@ const Projects = () => {
     pauseOnHover: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    appendDots: (dots) => (
+      <div
+        style={{
+          backgroundColor: '#ddd',
+          borderRadius: '10px',
+          padding: '10px',
+        }}
+      >
+        <ul style={{ margin: '0px' }}>
+          {' '}
+          {dots}
+          {' '}
+        </ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+        style={{
+          width: '30px',
+          color: '#af0505',
+          border: '2px black solid',
+        }}
+      >
+        {i + 1}
+      </div>
+    ),
   };
 
   const project = Project;
@@ -51,30 +77,34 @@ const Projects = () => {
   return (
     <div className="container-fluid projects">
       <h1 className="ms-5 fs-1 fw-bold text-white">MY PROJECTS</h1>
-      <Slider {...settings}>
+      <Slider {...settings} className="slider">
         {project.map((project) => (
           <div key={project.id} className="card border-dark project-card">
-            <img src={project.image} className="card-img-top project-image" alt="..." />
+            <a href={project.live}>
+              <img src={project.image} className="card-img-top project-image" alt="Project display" />
+            </a>
             <div className="card-body">
-              <h5 className="card-title text-center text-white">
+              <h3 className="card-title text-center text-white project-name">
                 {project.name}
                 <br />
                 <hr />
+              </h3>
+              <h5 className="text-white text-center">
                 Built using:
                 {project.technologies}
               </h5>
               <hr />
-              <p className="card-text  text-white">
+              <p className="card-text  text-white project-description">
                 Description:
                 <br />
                 {project.description}
               </p>
-              <div className="d-flex justify-content-evenly me-2 ms-2">
-                <a className="btn btn-outline-secondary" href={project.source} role="button">
-                  <FaGithub className="fa-brands fs-2 text-white" />
+              <div className="d-flex justify-content-evenly me-2 ms-2 project-links">
+                <a className="btn btn-outline-danger" href={project.source} role="button">
+                  <FaGithub className="fa-brands fs-4 text-white" />
                 </a>
-                <a className="btn btn-outline-secondary" href={project.live} role="button">
-                  <FaExternalLinkAlt className="fa-brands fs-2 text-white" />
+                <a className="btn btn-outline-danger" href={project.live} role="button">
+                  <FaExternalLinkAlt className="fa-brands fs-4 text-white" />
                 </a>
               </div>
             </div>
