@@ -31,11 +31,13 @@
     top: 15%;
     left: 8%;
     width: 80%;
+    height: 100%;
   }
 
   .project-links {
-    margin-top: 1.7rem;
+    margin-top: 2rem;
     margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
   }
 
   .contact-text {
@@ -47,7 +49,7 @@
   }
 
   .project-image {
-    height: 17rem;
+    height: 15rem;
   }
 
   .skills-page {
@@ -287,12 +289,12 @@
 
   .download-container {
     position: relative;
-    left: 2%;
+    left: 1%;
     top: 1rem;
   }
 
   .download-btn {
-    padding: 20px 25px;
+    padding: 15px 20px;
     background-color: #050801;
     color: #af0505;
     font-weight: bold;
@@ -318,5 +320,11 @@
 
   .footer-copy {
     margin-top: 2rem;
+  }
+
+  .project-description {
+    height: 12rem;
+    overflow-y: scroll;
+    margin-bottom: 2rem;
   }
 }
