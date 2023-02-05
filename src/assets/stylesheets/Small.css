@@ -16,8 +16,9 @@
 
   .homepage {
     position: absolute;
-    top: 15%;
+    top: 10%;
     width: 100%;
+    height: 85%;
   }
 
   .mobile-text {
@@ -48,6 +49,7 @@
   .home-card {
     width: 100%;
     background-color: #111;
+    height: 100%;
   }
 
   .skills-card {
@@ -102,9 +104,9 @@
   }
 
   .socials {
-    height: 5rem;
+    height: 8.5rem;
     width: 85%;
-    margin: 2rem 3rem 2rem 1.5rem;
+    margin: 2rem 3rem 3rem 1.5rem;
   }
 
   .icons {
@@ -139,6 +141,7 @@
     overflow: hidden;
     border-right: 3px solid;
     font-size: 2em;
+    height: 85%;
   }
 
   @keyframes animated-text {
@@ -256,12 +259,11 @@
   .profile-text-container {
     position: relative;
     top: 1.2rem;
-    left: 1.5rem;
-    padding-bottom: 1rem;
+    left: 0.85rem;
   }
 
   .profile-text {
-    font-size: 0.58rem;
+    font-size: 0.67rem;
     color: #fff;
     font-weight: 700;
   }
@@ -270,5 +272,37 @@
     font-size: 1.55rem;
     color: #fff;
     margin-left: 1rem;
+  }
+
+  .download-container {
+    position: relative;
+    left: 2%;
+    top: 1rem;
+  }
+
+  .download-btn {
+    padding: 20px 25px;
+    background-color: #050801;
+    color: #af0505;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .download-btn:hover {
+    background: #af0505;
+    color: #050801;
+    box-shadow: 0 0 5px #af0505, 0 0 25px #af0505, 0 0 50px #af0505,
+      0 0 100px #af0505;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  }
+
+  .footer-copy {
+    margin-top: 2rem;
   }
 }
