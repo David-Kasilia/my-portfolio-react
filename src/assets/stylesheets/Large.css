@@ -102,6 +102,18 @@
     width: 70%;
   }
 
+  .socials {
+    height: 5rem;
+    width: 85%;
+    margin: 2rem 3rem 1rem 1.5rem;
+  }
+
+  .icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
   .name:hover {
     color: #fff;
     text-shadow: 0 0 10px #af0505, 0 0 20px #fff, 0 0 40px #fff;
