@@ -19,7 +19,7 @@
     position: absolute;
     top: 10%;
     width: 100%;
-    height: 85%;
+    height: 100%;
   }
 
   .mobile-text {
@@ -29,8 +29,8 @@
   .projects {
     position: absolute;
     top: 15%;
-    left: 5%;
-    width: 90%;
+    left: 8%;
+    width: 80%;
   }
 
   .project-links {
@@ -270,10 +270,11 @@
     position: relative;
     top: 1.2rem;
     left: 0.85rem;
+    width: 70%;
   }
 
   .profile-text {
-    font-size: 0.67rem;
+    font-size: 0.6rem;
     color: #fff;
     font-weight: 700;
   }
