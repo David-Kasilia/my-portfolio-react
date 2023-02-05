@@ -18,14 +18,19 @@
     top: 2%;
     left: 28%;
     width: 70%;
+    height: 87%;
   }
 
   .project-card {
     background-color: #111;
   }
 
+  .slider {
+    height: 100%;
+  }
+
   .project-image {
-    height: 27rem;
+    height: 24rem;
   }
 
   .skills-page {
@@ -95,9 +100,14 @@
     gap: 1.5rem;
   }
 
-  .name:hover {
+  .name:hover,
+  .project-name:hover {
     color: #fff;
     text-shadow: 0 0 10px #af0505, 0 0 20px #fff, 0 0 40px #fff;
+  }
+
+  .project-description {
+    margin-top: -2rem;
   }
 
   .home-title {
