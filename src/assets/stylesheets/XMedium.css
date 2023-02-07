@@ -3,8 +3,8 @@
   .homepage {
     position: absolute;
     top: 13%;
-    left: 25%;
-    width: 85%;
+    left: 22%;
+    width: 90%;
   }
 
   .nav-container {
@@ -54,7 +54,8 @@
   }
 
   .about-card {
-    width: 100%;
+    width: 82%;
+    margin-left: 4rem;
     background-color: #111;
   }
 
@@ -289,5 +290,10 @@
       0 0 50px #af0505,
       0 0 100px #af0505;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  }
+
+  .my-image {
+    height: 20rem;
+    margin-left: 0.55rem;
   }
 }
