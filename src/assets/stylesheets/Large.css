@@ -136,7 +136,7 @@
     overflow: hidden;
     border-right: 3px solid;
     font-size: 2em;
-    min-height: 110vh;
+    padding-bottom: 2.5rem;
   }
 
   @keyframes animated-text {
