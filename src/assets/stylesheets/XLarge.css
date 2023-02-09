@@ -303,4 +303,10 @@
       0 0 100px #af0505;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
   }
+
+  .p-links {
+    color: #af0505;
+    font-weight: 700;
+    margin-left: 1.5rem;
+  }
 }

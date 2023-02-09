@@ -101,15 +101,15 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="d-flex justify-content-evenly me-2 ms-2 project-links">
-                <a className="btn btn-outline-danger" href={project.source} role="button" target="_blank">
+                <a className="btn btn-outline-danger link-btns" href={project.source} role="button" target="_blank">
                   <FaGithub className="fa-brands fs-4 text-white" />
-                  <span className="ms-3">
+                  <span className="p-links">
                     Source Code
                   </span>
                 </a>
-                <a className="btn btn-outline-danger" href={project.live} role="button" target="_blank">
+                <a className="btn btn-outline-danger link-btns" href={project.live} role="button" target="_blank">
                   <FaExternalLinkAlt className="fa-brands fs-4 text-white" />
-                  <span className="ms-3">
+                  <span className="p-links">
                     Live Preview
                   </span>
                 </a>
