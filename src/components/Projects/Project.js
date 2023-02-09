@@ -79,7 +79,7 @@ const Project = [
     image: 'https://www.linkpicture.com/q/Lamborghini-Clone-UI.png',
     technologies: 'Figma',
     live: 'https://www.figma.com/file/zJUWspmkSGkUIVe8VsCPf4/Lamborghini-Clone-UI?node-id=0%3A1&t=JAudJC4oZxZTRq84-1',
-    source: 'https://www.figma.com/file/zJUWspmkSGkUIVe8VsCPf4/Lamborghini-Clone-UI?node-id=0%3A1&t=JAudJC4oZxZTRq84-1',
+    source: 'https://github.com/David-Kasilia/vehicle-website',
   },
   {
     id: 10,

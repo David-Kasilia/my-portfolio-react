@@ -22,14 +22,14 @@ const About = () => (
               Associate Android Developer using Kotlin as an object-oriented
               language to build android applications.
               <br />
-              I am more passionate about creating a high-user interface and
+              I am more passionate about creating high-user interface and
               giving the best user experience in any website or android application I build.
               <br />
               Some of the programming languages I am familiar with include:
               Kotlin, JavaScript, HTML, Ruby and CSS.
               I&#39;m open to new remote job opportunities.
               <br />
-              In my free time,
+              During my free time,
               I like drawing art or graffiti, listening to music, gaming, or watching movies.
             </p>
             <button type="button" className="btn btn-danger ms-5 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
@@ -80,7 +81,7 @@ const Projects = () => {
       <Slider {...settings} className="slider">
         {project.map((project) => (
           <div key={project.id} className="card border-dark project-card">
-            <a href={project.live}>
+            <a href={project.live} target="_blank">
               <img src={project.image} className="card-img-top project-image" alt="Project display" />
             </a>
             <div className="card-body">
@@ -100,11 +101,17 @@ const Projects = () => {
                 {project.description}
               </p>
               <div className="d-flex justify-content-evenly me-2 ms-2 project-links">
-                <a className="btn btn-outline-danger" href={project.source} role="button">
+                <a className="btn btn-outline-danger link-btns" href={project.source} role="button" target="_blank">
                   <FaGithub className="fa-brands fs-4 text-white" />
+                  <span className="p-links">
+                    Source Code
+                  </span>
                 </a>
-                <a className="btn btn-outline-danger" href={project.live} role="button">
+                <a className="btn btn-outline-danger link-btns" href={project.live} role="button" target="_blank">
                   <FaExternalLinkAlt className="fa-brands fs-4 text-white" />
+                  <span className="p-links">
+                    Live Preview
+                  </span>
                 </a>
               </div>
             </div>

@@ -296,4 +296,10 @@
     height: 20rem;
     margin-left: 0.55rem;
   }
+
+  .p-links {
+    color: #af0505;
+    font-weight: 700;
+    margin-left: 0.95rem;
+  }
 }
