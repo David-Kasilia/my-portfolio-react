@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {
@@ -50,40 +51,40 @@ const MobileNav = () => (
 
             <div className="socials">
               <div className="d-flex icons">
-                <a href="https://twitter.com/davidkasilia" className="icon-link">
+                <a href="https://twitter.com/davidkasilia" className="icon-link" target="_blank">
                   <FaTwitter className="fa-brands  fs-4" />
                 </a>
-                <a href="https://github.com/David-Kasilia" className="icon-link">
+                <a href="https://github.com/David-Kasilia" className="icon-link" target="_blank">
                   <FaGithub className="fa-brands fs-4" />
                 </a>
-                <a href="https://www.youtube.com/@kasiliacreations" className="icon-link">
+                <a href="https://www.youtube.com/@kasiliacreations" className="icon-link" target="_blank">
                   <FaYoutube className="fa-brands  fs-4" />
                 </a>
-                <a href="https://linkedin.com/in/david-kasilia" className="icon-link">
+                <a href="https://linkedin.com/in/david-kasilia" className="icon-link" target="_blank">
                   <FaLinkedin className="fa-brands  fs-4" />
                 </a>
-                <a href="https://medium.com/@davidkasilia001" className="icon-link">
+                <a href="https://medium.com/@davidkasilia001" className="icon-link" target="_blank">
                   <FaMedium className="fa-brands  fs-4" />
                 </a>
-                <a href="https://stackoverflow.com/users/15810668" className="icon-link">
+                <a href="https://stackoverflow.com/users/15810668" className="icon-link" target="_blank">
                   <FaStackOverflow className="fa-brands  fs-4 icon-2" />
                 </a>
-                <a href="https://www.pinterest.com/David_Kasilia/" className="icon-link">
+                <a href="https://www.pinterest.com/David_Kasilia/" className="icon-link" target="_blank">
                   <FaPinterest className="fa-brands  fs-4 icon-2" />
                 </a>
-                <a href="https://instagram.com/kasiliadavid" className="icon-link">
+                <a href="https://instagram.com/kasiliadavid" className="icon-link" target="_blank">
                   <FaInstagram className="fa-brands  fs-4 icon-2" />
                 </a>
-                <a href="https://codepen.io/videlishious" className="icon-link">
+                <a href="https://codepen.io/videlishious" className="icon-link" target="_blank">
                   <FaCodepen className="fa-brands  fs-4 icon-2" />
                 </a>
-                <a href="https://www.behance.net/davidkasilia" className="icon-link">
+                <a href="https://www.behance.net/davidkasilia" className="icon-link" target="_blank">
                   <FaBehance className="fa-brands  fs-4 icon-2" />
                 </a>
-                <a href="https://dribbble.com/Kasilia254" className="icon-link">
+                <a href="https://dribbble.com/Kasilia254" className="icon-link" target="_blank">
                   <FaDribbble className="fa-brands  fs-4 icon-2" />
                 </a>
-                <a href="https://dev.to/@davidkasilia" className="icon-link">
+                <a href="https://dev.to/@davidkasilia" className="icon-link" target="_blank">
                   <FaDev className="fa-brands fs-4 icon-2" />
                 </a>
               </div>
